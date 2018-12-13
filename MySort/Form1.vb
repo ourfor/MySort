@@ -10,7 +10,14 @@ Public Class Form1
         a.ToString()
         Dim c As Math1 = New Math1()
         MsgBox(c.Sum(a.array).ToString)
+    End Sub
+
+    Private Sub 退出ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 退出ToolStripMenuItem.Click
         End
+    End Sub
+
+    Private Sub 博客ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 博客ToolStripMenuItem.Click
+        Process.Start("https://blog.ourfor.top")
     End Sub
 End Class
 
